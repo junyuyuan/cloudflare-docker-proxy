@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  ["docker.mogeko.org"]: dockerHub,
-  ["quay.mogeko.org"]: "https://quay.io",
-  ["gcr.mogeko.org"]: "https://gcr.io",
-  ["k8s-gcr.mogeko.org"]: "https://k8s.gcr.io",
-  ["k8s.mogeko.org"]: "https://registry.k8s.io",
-  ["ghcr.mogeko.org"]: "https://ghcr.io",
-  ["cloudsmith.mogeko.org"]: "https://docker.cloudsmith.io",
-  ["ecr.mogeko.org"]: "https://public.ecr.aws",
+  "docker.mogeko.org": dockerHub,
+  "quay.mogeko.org": "https://quay.io",
+  "gcr.mogeko.org": "https://gcr.io",
+  "k8s-gcr.mogeko.org": "https://k8s.gcr.io",
+  "k8s.mogeko.org": "https://registry.k8s.io",
+  "ghcr.mogeko.org": "https://ghcr.io",
+  "cloudsmith.mogeko.org": "https://docker.cloudsmith.io",
+  "ecr.mogeko.org": "https://public.ecr.aws",
 
   // staging
-  ["docker-staging.mogeko.org"]: dockerHub,
+  "docker-staging.mogeko.org": dockerHub,
 };
 
 function routeByHosts(host) {
